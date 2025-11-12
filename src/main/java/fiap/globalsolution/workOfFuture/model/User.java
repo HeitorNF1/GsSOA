@@ -21,13 +21,20 @@ public class User {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
+    @Column(nullable = false)
     private String nome;
 
+    @Column(nullable = false)
     private String telefone;
 
+    @Column(nullable = false)
     private String email;
 
+    @Column(nullable = false)
     private String senha;
 
-    private TypeUser role;
+    @Column(nullable = false)
+    private TypeUser role; //usuario ou admin (vou usar para dar as permissões na api de usuário)
+
+    private RelationUser relationUser; //profissional ou aluno (vou usar para dar as permissões na api de trilha)
 }

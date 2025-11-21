@@ -3,6 +3,11 @@
 ## 📝 Descrição do Projeto
 Este projeto é uma API RESTful desenvolvida em **Java 17** com **Spring Boot 3.5.7**, responsável por gerenciar trilhas de aprendizado e usuários dentro da plataforma de capacitação para profissões do futuro.
 
+### Integrantes:
+ - Guilherme Daher RM: 98611
+ - Gustavo Akio RM: 550241
+ - Heitor Nobre de Farias RM: 551539
+
 ---
 
 ## ⚙️ Tecnologias Utilizadas
